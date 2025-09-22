@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35231ba61d01c47c2958bacdd0ea50c3, type: 3}
+  m_Name: RandomBuildingInteriorsGenerator
+  m_EditorClassIdentifier: 
+  RecursiveSplitChance: 0.96
+  MinRoomLength: 5
+  MinLengthForDoor: 3
+  DoorDefinition: {fileID: 11400000, guid: d7f63c55e66344335984788f449bd341, type: 2}
+  WallPrefab: {fileID: 4025130170071530196, guid: 02c9689531fc84db9931e0ddd759993a, type: 3}
+  CeilingLightPrefab: {fileID: 497706983337807543, guid: b50f2c093715e41b1b914f90544c1f8c, type: 3}

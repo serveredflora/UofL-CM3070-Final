@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8a21273b347423b9a5088c333a9567, type: 3}
+  m_Name: PizzaItemDefinition
+  m_EditorClassIdentifier: 
+  DisplayName: Pizza
+  DisplayDescription: It's still luke-warm
+  SellValue:
+    Whole: 6
+    Fractional: 99
+  RepresentationPrefab: {fileID: -4979904903320104563, guid: ad363a6a1cad2408eb22fc19ffcfdc0d, type: 3}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34061d89ca8e54177af7200fc2049b05, type: 3}
+  m_Name: SimpleBuildingConfigsGenerator
+  m_EditorClassIdentifier: 
+  AllotmentInset: 8
+  BuildingHeightRange: {x: 4, y: 60}
+  FlooringThicknessRange: {x: 0.1, y: 0.1}
+  CeilingThicknessRange: {x: 0.1, y: 0.1}
+  InteriorHeightRange: {x: 4, y: 6}
+  FloorScaleOptions:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0.95
+  - 0.9
